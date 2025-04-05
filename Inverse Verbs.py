@@ -1,5 +1,5 @@
 import csv
-from spellchecker import Spellchecker
+from spellchecker import SpellChecker
 
 
 def get_inverse_verb(verb):
