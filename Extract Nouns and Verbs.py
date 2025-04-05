@@ -5,7 +5,7 @@ import csv
 nlp = spacy.load("en_core_web_sm")
 
 # Load your text file
-with open("ISO-15288_Section3_Final copy.txt", "r", encoding="windows-1252") as file:
+with open("LML specification 1.4.txt", "r", encoding="windows-1252") as file:
     text = file.read()
 
 # Process the text
