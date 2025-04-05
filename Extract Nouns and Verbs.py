@@ -5,17 +5,17 @@ import csv
 nlp = spacy.load("en_core_web_sm")
 
 # Load your text file
-with open("LML specification 1.4.txt", "r", encoding="windows-1252") as file:
+with open("LML specification 1.4.txt", "r", encoding="latin-1") as file:
     text = file.read()
 
 # Process the text
 doc = nlp(text)
 
-# Extract singular common nouns (filtering out plural nouns)
-nouns = [token.lemma_ for token in doc if token.pos_ == "NOUN" and token.tag_ != "NNS"]
+# Extract singular common nouns (filtering out plural nouns and multi-word expressions)
+nouns = [token.lemma_ for token in doc if token.pos_ == "NOUN" and token.tag_ != "NNS" and " " not in token.lemma_]
 
-# Extract base-form verbs
-verbs = [token.lemma_ for token in doc if token.pos_ == "VERB"]
+# Extract base-form verbs (filtering out multi-word expressions)
+verbs = [token.lemma_ for token in doc if token.pos_ == "VERB" and " " not in token.lemma_]
 
 # Remove duplicates
 unique_nouns = sorted(set(nouns))
@@ -24,23 +24,23 @@ unique_verbs = sorted(set(verbs))
 # -------------------------------
 # ✨ 1. Write to CSV
 # -------------------------------
-with open("extracted_words.csv", "w", newline='', encoding="utf-8") as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerow(["Nouns", "Verbs"])
+with open("nouns.csv", "w", newline='', encoding="utf-8") as noun_file:
+    writer = csv.writer(noun_file)
+    writer.writerow(["Noun"])
+    for noun in unique_nouns:
+        writer.writerow([noun])
 
-    # Write rows — zip fills to the shorter of the two
-    for noun, verb in zip(unique_nouns, unique_verbs):
-        writer.writerow([noun, verb])
+# -------------------------------
+# ✨ Write verbs to verbs.csv
+# -------------------------------
+with open("verbs.csv", "w", newline='', encoding="utf-8") as verb_file:
+    writer = csv.writer(verb_file)
+    writer.writerow(["Verb"])
+    for verb in unique_verbs:
+        writer.writerow([verb])
 
-    # Handle unmatched lengths
-    if len(unique_nouns) > len(unique_verbs):
-        for noun in unique_nouns[len(unique_verbs):]:
-            writer.writerow([noun, ""])
-    elif len(unique_verbs) > len(unique_nouns):
-        for verb in unique_verbs[len(unique_nouns):]:
-            writer.writerow(["", verb])
+print("✅ CSV files saved: 'nouns.csv' and 'verbs.csv'")
 
-print("✅ CSV file saved as 'extracted_words.csv'")
 
 # -------------------------------
 # ✨ 2. Write to TTL (Turtle)
