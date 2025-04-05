@@ -125,7 +125,7 @@ def process_verbs_from_csv(input_csv_path, output_csv_path=None, check_spelling_
     verbs = []
     try:
         # Try to read the CSV file - first check if it has headers
-        with open(input_csv_path, 'r', newline='') as csvfile:
+        with open('verbs.csv', 'r', newline='') as csvfile:
             sample = csvfile.read(1024)
             csvfile.seek(0)
             has_header = csv.Sniffer().has_header(sample)
