@@ -24,7 +24,7 @@ unique_verbs = sorted(set(verbs))
 # -------------------------------
 # ✨ 1. Write to CSV
 # -------------------------------
-with open("extracted_words.csv", "w", newline='', encoding="utf-8") as csvfile:
+with open("extracted_words.csv", "w", newline='', encoding="latin-1") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["Nouns", "Verbs"])
 
