@@ -1,0 +1,1434 @@
+Prefix(:=<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288>
+
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#baseline>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#risk>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#abstract_system>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achievement>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#action>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#activity>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architectural_view>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#arrangement_of_parts>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#artefact>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#asset>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assumption>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#attribute>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#authority>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#behavior>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#boundary>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#buyer>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#capability>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#characteristic>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#circumstance>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#claim>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#compliance>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concept>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concept_of_operations>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conceptual_system>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concern>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confidence>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_management>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmation>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conformance>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constraint>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#context>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contract>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#convention>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#corrective_action>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#criteria>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#customer>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#description>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attribute>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attributes>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristic>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristics>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_features>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#document>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabling_system>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#endeavor>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#energy>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#engineering>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entity>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#event>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchange_information>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#execution>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#feature>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#functional_view>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#group>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#hardware>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#hierarchy>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implementation>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#incident>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#independent_examination>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#individual>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information_item>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#input>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interaction>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interest>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interfacing_system>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#internal_sponsor>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interoperating_system>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#investigation>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#item>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#iteration>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_model>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_period>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#management_method>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#matter>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#meaning>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#measurable_description>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#memorandum_of_agreement>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#method>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#mutual_acknowledgement>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective_evidence>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operation>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_concept>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_view>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organizational_sponsor>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#outcome>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#owner>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#part>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permissible_action>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#person>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#physical_system>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#principle>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#problem>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_outcome>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_purpose>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product_description>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product_line_engineering>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#property>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#purchaser>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_assurance>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_characteristic>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_requirement>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realization>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommended_action>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recursion>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relationship>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#representation>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_action>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#responsibility>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#retirement>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#right>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#safety>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#scientific_method>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#security>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service_description>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#setting>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#share>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#situation>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#software>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#solution>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifiction>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#sponsor>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stage>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#state>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#statement>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#support>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_characteristic>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_element>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_interest>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_systems>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_concept>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_principle>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#task>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#technological_method>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#terms_and_conditions>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#traceability>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_condition>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_event>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_situation>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#use>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#validation>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#variant>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#variation>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#verification>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#view>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#viewpoint>))
+Declaration(Class(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#work_product>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieved_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieves>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acknowledged_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acknowledges>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquired_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquires>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acted_on>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acts_on>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#analyzed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#analyzes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#approved_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#approves>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assessed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assesses>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#associated_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#associates>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assumed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assumes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#benefits>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#benefits_from>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#captured_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#captures>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#caused_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#causes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#characterized_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#characterizes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#claimed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#claims>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#compared_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#compares>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#composed_of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#composes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#comprised_of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#comprises>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concerned_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concerns>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conducted_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conducts>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirms>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#considered_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#considers>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constructed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constucts>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conveyed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conveys>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#created_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#creates>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#defined_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#defines>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#delivered_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#delivers>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designated_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designates>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determined_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determines>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#elevated_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#elevates>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabled_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enables>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulated_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulates>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entered_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enters>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolves>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examined_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examines>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchanged_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchanges>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibited_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibits>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expressed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expresses>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfilled_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfills>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#identified_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#identifies>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implemented_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implements>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#included_in>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#includes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#input_to>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#inputs>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#installed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#installs>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interacts_with>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interested_in>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#is_a>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#leads_to>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#led_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#meets>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#met_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#obtained_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#obtains>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#of_interest>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operated_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operates>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organized_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organizes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#output_of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#outputs>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performs>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permits>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permitted_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#pertains_to>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#placed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#places>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#procured_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#procures>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#produced_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#produces>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#protected_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#protects>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provided_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provides>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisioned_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisions>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realized_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realizes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#received_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#receives>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommended_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommends>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#related_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relates>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#repeated_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#repeats>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#represented_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#represents>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requires>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#result_of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#results_in>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#shared_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#shares>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specified_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifies>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stored_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stores>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplied_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplies>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supported_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supports>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#transformed_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#transforms>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translated_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translates>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#treated_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#treats>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#upgraded_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#upgrades>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#used_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#uses>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#withdrawn_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#withdraws>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieved_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieved_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieves>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acknowledged_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acknowledged_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acknowledged_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acknowledges>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquired_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquired_by>)
+
+EquivalentObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquired_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#procured_by>)
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquired_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquires>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquires> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquires>)
+
+EquivalentObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquires> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#procures>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acted_on> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acted_on>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acted_on> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acts_on>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#analyzed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#analyzed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#analyzed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#analyzes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#approved_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#approved_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#approved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#approves>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assessed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assessed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assessed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assesses>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#associated_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#associated_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#associated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#associates>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assumed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assumed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assumed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assumes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#benefits> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#benefits>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#benefits> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#benefits_from>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#captured_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#captured_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#captured_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#captures>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#caused_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#caused_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#caused_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#causes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#characterized_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#characterized_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#characterized_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#characterizes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#claimed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#claimed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#claimed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#claims>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#compared_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#compared_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#compared_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#compares>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#composed_of> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#composed_of>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#composed_of> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#composes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#comprised_of> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#comprised_of>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#comprised_of> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#comprises>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concerned_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concerned_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concerned_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concerns>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conducted_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conducted_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conducted_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conducts>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirms>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#considered_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#considered_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#considered_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#considers>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constructed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constructed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constructed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constucts>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conveyed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conveyed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conveyed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conveys>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#created_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#created_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#created_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#creates>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#defined_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#defined_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#defined_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#defines>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#delivered_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#delivered_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#delivered_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#delivers>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designated_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designated_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designates>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designates> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designates>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designates> owl:topObjectProperty)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determined_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determined_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determined_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determines>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#elevated_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#elevated_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#elevated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#elevates>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabled_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabled_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabled_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enables>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulated_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulated_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulates>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entered_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entered_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entered_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enters>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolves>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examined_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examined_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examined_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examines>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examines> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examines>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examines> owl:topObjectProperty)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchanged_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchanged_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchanged_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchanges>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibited_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibited_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibited_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibits>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expressed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expressed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expressed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expresses>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfilled_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfilled_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfilled_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfills>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfills> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfills>)
+
+InverseFunctionalObjectProperty(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfills>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#identified_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#identified_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#identified_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#identifies>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implemented_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implemented_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implemented_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implements>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#included_in> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#included_in>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#included_in> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#includes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#input_to> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#input_to>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#input_to> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#inputs>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#installed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#installed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#installed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#installs>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interested_in> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interested_in>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interested_in> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#of_interest>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#leads_to> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#leads_to>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#leads_to> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#led_by>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#meets> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#meets>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#meets> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#met_by>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#met_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#met_by>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#met_by> owl:topObjectProperty)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#obtained_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#obtained_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#obtained_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#obtains>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operated_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operated_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operates>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organized_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organized_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organized_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organizes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#output_of> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#output_of>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#output_of> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#outputs>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performs>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permits> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permits>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permits> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permitted_by>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#placed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#placed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#placed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#places>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#procured_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#procured_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#procured_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#procures>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#produced_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#produced_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#produced_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#produces>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#protected_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#protected_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#protected_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#protects>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provided_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provided_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provided_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provides>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisioned_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisioned_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisioned_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisions>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realized_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realized_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realized_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realizes>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#received_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#received_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#received_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#receives>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommended_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommended_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommended_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommends>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#related_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#related_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#related_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relates>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#repeated_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#repeated_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#repeated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#repeats>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#represented_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#represented_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#represented_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#represents>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requires>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#result_of> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#result_of>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#result_of> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#results_in>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#shared_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#shared_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#shared_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#shares>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specified_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specified_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specified_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifies>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stored_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stored_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stored_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stores>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplied_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplied_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplied_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplies>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supported_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supported_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supported_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supports>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#transformed_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#transformed_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#transformed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#transforms>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translated_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translated_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translates>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#treated_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#treated_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#treated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#treats>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#upgraded_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#upgraded_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#upgraded_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#upgrades>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#used_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#used_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#used_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#uses>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized_by>)
+
+# Object Property: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#withdrawn_by> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#withdrawn_by>)
+
+InverseObjectProperties(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#withdrawn_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#withdraws>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition> "process of obtaining a system, product, or service")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#obtains> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#obtains> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#obtains> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit> "independent examination of a work product or set of work products to assess compliance with specifications, standards, contractual agreements, or other criteria")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#independent_examination>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assesses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#compliance>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#examines> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#baseline> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#baseline>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#baseline> "formally approved version of a configuration item, regardless of media, formally designated and fixed at a specific time during the configuration item's life cycle")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#baseline> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#approves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer> "Organization or person that receives a product or service.")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer> ObjectUnionOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#person>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#receives> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#receives> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design> "specification of system elements and their relationships, that is sufficiently complete to support a compliant implementation of the architecture")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifiction>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifies> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifies> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relationship>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supports> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supports> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implementation>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface> "point at which two or more logical, physical, or both, system elements or software system elements meet and act on or communicate with each other")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#uses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchange_information>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator> "Individual or organization that performs the operations of a system.")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator> ObjectUnionOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#group> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#person>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performs> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operation>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> "Person or group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives.")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> ObjectUnionOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#group> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#person>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#authority>) ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relationship>) ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#responsibility>)))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assumes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_concept>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#outputs> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project> "Endeavour with defined start and finish criteria undertaken to create a product or service in accordance with specified resources and requirements.")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#endeavor>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#creates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#creates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#risk> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#risk>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#risk> "Effect of uncertainty on objectives.")
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> "arrangement of parts or elements that together exhibit a stated behaviour or meaning that the individual constituents do not")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#arrangement_of_parts>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#benefits> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#comprised_of> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchanges> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibits> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#behavior>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interacts_with> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interacts_with> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user> "individual or group that interacts with a system or benefits from a system during its utilization")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user> ObjectUnionOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#group> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#person>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#benefits_from> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interacts_with> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisions> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective_evidence>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#abstract_system> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#abstract_system>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#abstract_system> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conceptual_system>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#abstract_system> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achievement> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achievement>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achievement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#task>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#buyer>)
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#customer>)
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#owner>)
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#purchaser>)
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#sponsor>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquires> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquires> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquirer> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acquires> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#activity> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#activity>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#activity> "set of cohesive tasks of a process")
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement> "Mutual acknowledgement of terms and conditions under which a working relationship is conducted")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#mutual_acknowledgement>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acknowledges> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#acknowledges> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#terms_and_conditions>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conducts> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relationship>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entered_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entered_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#customer>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entered_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architectural_view> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architectural_view>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architectural_view> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#view>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture> "Fundamental concepts or properties of a system in its environment and governing principles for the realization and evolution of this system and its related life cycle processes")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realizes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realizes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realizes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supported_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#arrangement_of_parts> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#arrangement_of_parts>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#arrangement_of_parts> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#part>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#artefact> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#artefact>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#artefact> "work product that is produced and used during a project to capture and convey information")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#artefact> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#work_product>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#artefact> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#captures> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#artefact> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conveys> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#artefact> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#produced_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#asset> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#asset>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#asset> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#behavior> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#behavior>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#behavior> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibited_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#boundary> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#boundary>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#boundary> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#boundary> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#solution>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#buyer> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#buyer>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#buyer> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#capability> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#capability>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#capability> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provided_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_systems>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#circumstance> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#circumstance>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#circumstance> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determined_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concept_of_operations> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concept_of_operations>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concept_of_operations> "verbal and graphic statement, in broad outline, of an organization’s assumptions or intent in regard to an operation or series of operations of new, modified, or existing organization systems")
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conceptual_system> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conceptual_system>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conceptual_system> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conceptual_system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibits> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#meaning>))
+DisjointClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conceptual_system> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#physical_system>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concern> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concern>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concern> "matter of interest or importance to a stakeholder")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concern> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#of_interest> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expressed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confidence> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confidence>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confidence> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provided_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_assurance>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item> "Item or aggregation of hardware, software, or both, that is designated for configuration management and treated as a single entity in the configuration management process")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#item>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_management>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_management> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_management>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_management> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#designates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmation> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmation>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmation> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisions> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective_evidence>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constraint> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constraint>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constraint> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expressed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constraint> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contract> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contract>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contract> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#corrective_action> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#corrective_action>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#corrective_action> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#problem>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attribute> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attribute>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attribute> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#attribute>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attributes> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attributes>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attributes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristics>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attributes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristic> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristic>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristic> ObjectUnionOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_attribute> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#feature>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristic> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#pertains_to> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#description>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristics> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristics>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristics> "Design attributes or distinguishing features that pertain to a measurable description of a product or service.")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_characteristics> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#design_features>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#part>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#comprises> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfills> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interacts_with> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabling_system> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabling_system>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabling_system> "System that supports a system-of-interest during its life cycle stages but does not necessarily contribute directly to its function during operation")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabling_system> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabling_system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supports> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_interest>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entity> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entity>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entity> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment> "Context determining the setting and circumstances of all influences upon a system.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#context>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determines> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#circumstance>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determines> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#setting>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interacts_with> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchange_information> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchange_information>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchange_information> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchange_information> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#used_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#execution> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#execution>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#execution> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#execution> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#functional_view> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#functional_view>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#functional_view> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#view>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#hardware> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#hardware>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#hardware> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item>)
+DisjointClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#hardware> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#software>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implementation> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implementation>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#implementation> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supported_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#incident> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#incident>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#incident> "Anomalous or unexpected event, set of events, condition, or situation at any time during the life cycle of a project, product, service, or system.")
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#individual> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#individual>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#individual> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#person>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performs> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operation>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information_item> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information_item>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information_item> "Separately identifiable body of information that is produced, stored, and delivered for human use.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information_item> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#input> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#input>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#input> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#transformed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interaction> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interaction>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interaction> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relationship>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interfacing_system> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interfacing_system>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interfacing_system> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#internal_sponsor> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#internal_sponsor>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#internal_sponsor> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#sponsor>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interoperating_system> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interoperating_system>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interoperating_system> "Systems that interact to perform a function are called interoperating systems, which are an important
+aspect in the context of systems of systems.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interoperating_system> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interfacing_system>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interoperating_system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exchanges> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#information>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#investigation> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#investigation>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#investigation> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#problem>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#iteration> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#iteration>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#iteration> "Repeating the application of the same process or set of processes on the same level of the system structure.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#iteration> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#authority>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#iteration> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relationship>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#iteration> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#responsibility>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#iteration> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#repeats> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle> "Evolution of a system, product, service, project or other human-made entity from conception through retirement.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concerned_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_model>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_model> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_model>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_model> "Framework of processes and activities concerned with the life cycle which can be organized into stages, acting as a common reference for communication and understanding.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_model> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concerns> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_model> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organizes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stage>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_period> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_period>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_period> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stage>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#entity>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#associated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#traceability>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#management_method> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#management_method>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#management_method> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#method>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#meaning> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#meaning>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#meaning> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibited_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conceptual_system>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#measurable_description> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#measurable_description>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#measurable_description> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#description>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#memorandum_of_agreement> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#memorandum_of_agreement>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#memorandum_of_agreement> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#boundary>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expressed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective_evidence> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective_evidence>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective_evidence> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisioned_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#validation>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective_evidence> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provisioned_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#verification>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operation> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operation>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operation> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_concept> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_concept>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_concept> "Verbal and graphic statement of an organization's assumptions or intent in regard to an operation or series of operations of a specific system or a related set of specific new, existing or modified systems.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_concept> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#statement>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_concept> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#assumed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_view> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_view>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#operational_view> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#view>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organizational_sponsor> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organizational_sponsor>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organizational_sponsor> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#sponsor>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#outcome> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#outcome>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#outcome> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#task>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#part> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#part>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#part> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interacts_with> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#part> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interacts_with> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#part>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permissible_action> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permissible_action>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permissible_action> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#action>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#physical_system> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#physical_system>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#physical_system> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#physical_system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#composed_of> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#energy>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#physical_system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#composed_of> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#matter>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#physical_system> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#exhibits> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#behavior>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#problem> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#problem>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#problem> "Difficulty, uncertainty, or otherwise realised and undesirable event, set of events, condition, or situation that requires investigation and corrective action.")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#problem> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_condition>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#problem> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requires> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#corrective_action>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#problem> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requires> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#investigation>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process> "Set of interrelated or interacting activities that transform inputs into outputs.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#architecture>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#repeated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recursion>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#transforms> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#input>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_outcome> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_outcome>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_outcome> "Observable result of the successful achievement of the process purpose.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_outcome> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_purpose>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_purpose> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_purpose>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_purpose> "High level objective of performing the process and the likely outcomes of effective implementation of the process.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_purpose> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achieves> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_outcome>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_purpose> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#is_a> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process_purpose> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performs> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product> "Output of an organization that can be produced without any transaction taking place between the organization and the customer.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#output_of> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplied_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product_description> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product_description>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product_description> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#description>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product_line_engineering> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product_line_engineering>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product_line_engineering> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#engineering>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_assurance> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_assurance>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_assurance> "Part of quality management focused on providing confidence that quality requirements will be fulfilled.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_assurance> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfills> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_requirement>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_assurance> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provides> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confidence>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_characteristic> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_characteristic>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_characteristic> "Inherent characteristic of a product, service, process, or system related to a requirement.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_characteristic> ObjectSomeValuesFrom(owl:topObjectProperty <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#characteristic>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_requirement> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_requirement>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_requirement> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_requirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfilled_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#quality_assurance>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realization> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realization>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realization> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabled_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommended_action> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommended_action>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommended_action> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#action>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recursion> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recursion>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recursion> "Repeating the application of the same process or set of processes to successive levels of system elements in the system structure.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recursion> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#repeats> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relationship> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relationship>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relationship> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#conducted_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#representation> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#representation>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#representation> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#view>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_action> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_action>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_action> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#action>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> "Statement which translates or expresses a need and its associated constraints and conditions.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expresses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expresses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constraint>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expresses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfilled_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#element>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#fulfilled_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#objective_evidence>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#constraint>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#translates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> "Asset that is utilised or consumed during the execution of a process.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#execution>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#consumed_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expresses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#expresses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#treated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#treated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#need>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#execution>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#resource> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#utilized_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#process>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#retirement> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#retirement>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#retirement> "Withdrawal of active support by the operation and maintenance organization, partial or total replacement by a new system, or installation of an upgraded system, or final decommissioning and disposal.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#retirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabled_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#retirement> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#withdraws> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#support>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#safety> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#safety>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#safety> "Expectation that a system does not, under defined conditions, lead to a state in which human life, health, property, or the environment is endangered.")
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#scientific_method> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#scientific_method>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#scientific_method> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#method>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#security> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#security>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#security> "protection against intentional subversion or forced failure")
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service> "output of an organization with at least one activity necessarily performed between the organization and the customer")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#created_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#evolved_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#output_of> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplied_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service> ObjectMinCardinality(1 <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#performs> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#activity>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service_description> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service_description>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service_description> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#description>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#setting> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#setting>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#setting> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#determined_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#environment>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#software> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#software>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#software> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#configuration_item>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#solution> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#solution>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#solution> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#encapsulated_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#boundary>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifiction> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifiction>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifiction> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifies> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#convention>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stage> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stage>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stage> "period within the life cycle of an entity that relates to the state of its description or realization")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stage> ObjectUnionOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realization> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#relates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#description>)))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stage> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#organized_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#life_cycle_model>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder> "individual or organization having a right, share, claim, or interest in a system or in its possession of characteristics that meet their needs and expectations")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder> ObjectUnionOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#individual>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#claim>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interest>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#right>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#has> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#share>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#stakeholder> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#interested_in> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concern>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#statement> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#statement>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#statement> ObjectSomeValuesFrom(owl:topObjectProperty <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#requirement>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier> "organization or an individual that enters into an agreement with the acquirer for the supply of a product or service")
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier> ObjectUnionOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#person>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enters> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#agreement>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplies> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#product>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplier> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supplies> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#service>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#support> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#support>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#support> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#withdrawn_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#retirement>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_characteristic> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_characteristic>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_characteristic> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#characteristic>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_element> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_element>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_element> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_interest> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_interest>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_interest> "system whose lifecycle is under consideration")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_interest> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_interest> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#defines> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#boundary>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_interest> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#supported_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabling_system>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_systems> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_systems>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_systems> "set of systems or system elements that interact to provide a unique capabiility that none of the constitution systems can accomplish on its own")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#system_of_systems> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#provides> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#capability>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_concept> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_concept>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_concept> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#concept>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> "transdisciplinary and integrative approach to enable the successful realization, use, and retirement of engineered systems using systems principles and concepts and scientific, technological and management methods")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#engineering>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enables> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#realization>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enables> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#retirement>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enables> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#use>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#uses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#management_method>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#uses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#scientific_method>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#uses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_concept>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#uses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_principle>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#uses> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#technological_method>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_principle> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_principle>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_principle> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#principle>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#task> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#task>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#task> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity>)
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#task> ObjectUnionOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#recommended_action> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#required_action> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#is_a> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#permissible_action>)))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#task> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#achievement>))
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#task> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#contributes> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#outcome>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#technological_method> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#technological_method>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#technological_method> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#method>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#traceability> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#traceability>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#traceability> "discernible association among two or more logical entities, such as requirements, system elements, verifications, or tasks")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#traceability> ObjectMinCardinality(2 <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#associates> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#logical_entity>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_condition> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_condition>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_condition> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#condition>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_event> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_event>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_event> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#event>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_situation> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_situation>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#undesirable_situation> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#situation>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#use> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#use>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#use> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#enabled_by> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#systems_engineering>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#validation> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#validation>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#validation> "confirmation, through the provision of objective evidence, that the requirements for a specific intended use or application that have been fulfilled")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#validation> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmation>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#variant> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#variant>)
+
+EquivalentClasses(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#variant> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#variation>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#verification> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#verification>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#verification> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#confirmation>)
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#view> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#view>)
+
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#view> ObjectSomeValuesFrom(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#represents> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system>))
+
+# Class: <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#viewpoint> (<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#viewpoint>)
+
+AnnotationAssertion(rdfs:isDefinedBy <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#viewpoint> "Specification of the conventions for constructing and using a view.")
+SubClassOf(<http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#viewpoint> <http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288#specifiction>)
+
+
+)
