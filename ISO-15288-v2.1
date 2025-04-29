@@ -1,0 +1,4605 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288"
+     versionIRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288/v2.1">
+    <Prefix name="" IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/ISO-15288/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#baseline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abstract_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#achievement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acquirer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agreement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agreement_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alternative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#architectural_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arrangement_of_parts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#asset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#authority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#black_box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#boundary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#business_or_mission_analysis_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#circumstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#claim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#commercial_item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#commercial_off_the_shelf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#composite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concept_of_operations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conceptual_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#confidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#configuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#configuration_item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#configuration_management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#configuration_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#confirmation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conformance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#constraint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#convention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#corrective_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decision_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decision_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_constraint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_definition_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disposal_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enabling_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#endeavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exchange_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#execution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#external_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feedback"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#framework"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#functional_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hierarchy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_resource_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#implementation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#implementation_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#incident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#independent_examination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#individual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#information_item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#information_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infrastructure_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#installation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#integration_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interface_management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interfacing_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal_sponsor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interoperating_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#investigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iteration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#knowledge_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#life_cycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#life_cycle_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#life_cycle_model_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#life_cycle_period"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#logical_entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maintainability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maintenance_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#management_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#marketing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#matter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maturity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#measurable_description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#measurement_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#memorandum_of_agreement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#model_based_systems_engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#modification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mutual_acknowledgement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#need"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#objective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#objective_evidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operation_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operational_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operational_concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operational_effectiveness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operational_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organization_project_enabling_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organizational_sponsor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#output"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#owner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#permissible_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physical_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portfolio_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#principle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#problem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process_outcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process_purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product_description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product_line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product_line_engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product_line_scoping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#production"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#project_assessment_and_control_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#project_planning_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#purchaser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_assurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_assurance_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#realization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recommended_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recursion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relationship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#representation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#required_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#responsibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#retirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scenario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scientific_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#service_description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#setting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#share"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#specifiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sponsor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stakeholder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stakeholder_needs_and_requirements_definition_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#statement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#suitability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supplier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supply_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system_analysis_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system_characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system_element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system_of_interest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system_of_systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system_requirements_definition_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#systems_concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#systems_engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#systems_principle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#technical_management_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#technical_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#technological_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#terms_and_conditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transition_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uncertainty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#undesirable_condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#undesirable_event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#undesirable_situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#utilization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#validation_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#verification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#verification_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viewpoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#white_box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#work_product"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#achieved_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#achieves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acknowledged_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acknowledges"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acquired_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acquires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acted_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acts_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#addressed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#addresses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analyzed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analyzes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#applied_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#applies_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#approved_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#approves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assessed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assesses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#associated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#associates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assumed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assumes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#benefits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#benefits_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#captured_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#captures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#caused_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#characterized_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#characterizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#chooses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#chosen_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#claimed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#claims"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#compared_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#compares"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#composed_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#composes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comprised_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comprises"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#concerned_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#concerns"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conducted_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conducts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#confirmed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#confirms"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#considered_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#considers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#constituted_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#constitutes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#constructed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#constucts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consumed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consumes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contributed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contributes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#controlled_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#controls"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conveyed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conveys"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#created_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#creates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defined_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#delivered_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#delivers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#described_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#designated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#designates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determined_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#elevated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#elevates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#employ"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#employed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enabled_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enables"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#encapsulated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#encapsulates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#entered_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enters"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evaluated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evaluates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evolved_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evolves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#examined_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#examines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exchanged_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exchanges"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exhibited_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exhibits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expressed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expresses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fulfilled_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fulfills"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identified_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identifies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#implemented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#implements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#imposed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#imposes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#included_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#input_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inputs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#installed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#installs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interacts_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interested_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leads_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#led_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#manages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#meets"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#met_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#obtained_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#obtains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#of_interest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#operated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#operates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#organized_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#organizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#output_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#outputs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#permits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#permitted_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pertains_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#placed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#places"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#procured_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#procures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produced_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#protected_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#protects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provided_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provisioned_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provisions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realized_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#received_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#receives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommended_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommends"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#related_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#repeated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#repeats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#required_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#result_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#results_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#satisfied_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#satisfy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#scheduled_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#schedules"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#selected"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#selected_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shared_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shares"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#specified_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#specifies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#stored_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#stores"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#studied_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#studies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplied_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supported_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transformed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transforms"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#translated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#translates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#upgraded_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#upgrades"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utilized"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utilized_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#withdrawn_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#withdraws"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#within"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit"/>
+        <Class IRI="#independent_examination"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+            <Class IRI="#person"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator"/>
+        <ObjectUnionOf>
+            <Class IRI="#group"/>
+            <Class IRI="#person"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+        <ObjectUnionOf>
+            <Class IRI="#group"/>
+            <Class IRI="#person"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project"/>
+        <Class IRI="#endeavor"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <Class IRI="#arrangement_of_parts"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user"/>
+        <ObjectUnionOf>
+            <Class IRI="#group"/>
+            <Class IRI="#person"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#abstract_system"/>
+        <Class IRI="#conceptual_system"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#acquirer"/>
+        <Class IRI="#buyer"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#acquirer"/>
+        <Class IRI="#customer"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#acquirer"/>
+        <Class IRI="#owner"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#acquirer"/>
+        <Class IRI="#purchaser"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#acquirer"/>
+        <Class IRI="#sponsor"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#agreement"/>
+        <Class IRI="#mutual_acknowledgement"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#arrangement_of_parts"/>
+        <Class IRI="#part"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#asset"/>
+        <Class IRI="#resource"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#design_attributes"/>
+        <Class IRI="#design_characteristics"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#design_characteristics"/>
+        <Class IRI="#design_features"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#element"/>
+        <Class IRI="#part"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#entity"/>
+        <Class IRI="#product"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#individual"/>
+        <Class IRI="#person"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#interface_management"/>
+        <Class IRI="#metric"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#life_cycle_period"/>
+        <Class IRI="#stage"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#problem"/>
+        <Class IRI="#undesirable_condition"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#product_line_engineering"/>
+        <Class IRI="#product_line_scoping"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#representation"/>
+        <Class IRI="#view"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#stakeholder"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+            <Class IRI="#individual"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#supplier"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+            <Class IRI="#person"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#variant"/>
+        <Class IRI="#variation"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition_process"/>
+        <Class IRI="#agreement_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition_process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#obtains"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition_process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#obtains"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition_process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#obtains"/>
+            <Class IRI="#service"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#assesses"/>
+            <Class IRI="#compliance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#examines"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#baseline"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#approves"/>
+            <Class IRI="#configuration_item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#receives"/>
+                <Class IRI="#product"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#receives"/>
+                <Class IRI="#service"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design"/>
+        <Class IRI="#specifiction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#specifies"/>
+            <Class IRI="#element"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#specifies"/>
+            <Class IRI="#relationship"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supports"/>
+            <Class IRI="#architecture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supports"/>
+            <Class IRI="#implementation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#controlled_by"/>
+                <Class IRI="#interface_management"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#defined_by"/>
+                <Class IRI="#interface_management"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#managed_by"/>
+                <Class IRI="#interface_management"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#exchange_information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performs"/>
+            <Class IRI="#operation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#authority"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#relationship"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#responsibility"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#achieves"/>
+            <Class IRI="#objective"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#assumes"/>
+            <Class IRI="#operational_concept"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#outputs"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="#service"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#evolved_by"/>
+            <Class IRI="#life_cycle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#comprised_of"/>
+                <Class IRI="#element"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#constituted_by"/>
+                <Class IRI="#element"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#benefits"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#evolved_by"/>
+            <Class IRI="#architecture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#evolved_by"/>
+            <Class IRI="#life_cycle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exchanges"/>
+            <Class IRI="#information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exhibits"/>
+            <Class IRI="#behavior"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expressed_by"/>
+            <Class IRI="#capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#interacts_with"/>
+            <Class IRI="#element"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#interacts_with"/>
+            <Class IRI="#environment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#life_cycle"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#benefits_from"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#interacts_with"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification"/>
+        <Class IRI="#logical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#provisions"/>
+            <Class IRI="#objective_evidence"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expressed_by"/>
+            <Class IRI="#capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abstract_system"/>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#achievement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contributed_by"/>
+            <Class IRI="#task"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acquirer"/>
+        <Class IRI="#stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acquirer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#acquires"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acquirer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#acquires"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acquirer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#acquires"/>
+            <Class IRI="#service"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agreement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#acknowledges"/>
+            <Class IRI="#condition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agreement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#acknowledges"/>
+            <Class IRI="#terms_and_conditions"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agreement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#conducts"/>
+            <Class IRI="#relationship"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agreement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#entered_by"/>
+            <Class IRI="#agreement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agreement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#entered_by"/>
+            <Class IRI="#customer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agreement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#entered_by"/>
+            <Class IRI="#supplier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agreement_process"/>
+        <Class IRI="#process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alternative"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#chosen_by"/>
+                <Class IRI="#decision_analysis"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evaluated_by"/>
+                <Class IRI="#decision_analysis"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#architectural_view"/>
+        <Class IRI="#view"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#architecture"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evolves"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evolves"/>
+                <Class IRI="#life_cycle"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evolves"/>
+                <Class IRI="#process"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#architecture"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#realizes"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#realizes"/>
+                <Class IRI="#life_cycle"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#realizes"/>
+                <Class IRI="#process"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#architecture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supported_by"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artifact"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#captures"/>
+                <Class IRI="#information"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#conveys"/>
+                <Class IRI="#information"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artifact"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#produced_by"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#used_by"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artifact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#characterized_by"/>
+            <Class IRI="#configuration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artifact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_a"/>
+            <Class IRI="#work_product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exhibited_by"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#black_box"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#represents"/>
+            <Class IRI="#external_view"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#scope"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#encapsulates"/>
+            <Class IRI="#need"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#encapsulates"/>
+            <Class IRI="#solution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imposed_by"/>
+            <Class IRI="#design_constraint"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#business_or_mission_analysis_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buyer"/>
+        <Class IRI="#stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capability"/>
+        <ObjectUnionOf>
+            <Class IRI="#ability"/>
+            <Class IRI="#function"/>
+            <Class IRI="#product"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#expresses"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#achieves"/>
+            <Class IRI="#objective"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#provided_by"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#circumstance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#determined_by"/>
+            <Class IRI="#environment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#commercial_item"/>
+        <Class IRI="#item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#commercial_off_the_shelf"/>
+        <Class IRI="#commercial_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#commercial_off_the_shelf"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#maintenance"/>
+            <ObjectExactCardinality cardinality="0">
+                <ObjectProperty IRI="#requires"/>
+                <Class IRI="#modification"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#composite"/>
+        <Class IRI="#configuration_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concept"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_a"/>
+            <Class IRI="#life_cycle_period"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concept_of_operations"/>
+        <Class IRI="#statement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conceptual_system"/>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conceptual_system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exhibits"/>
+            <Class IRI="#meaning"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concern"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#of_interest"/>
+            <Class IRI="#stakeholder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#condition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expressed_by"/>
+            <Class IRI="#requirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#condition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#translated_by"/>
+            <Class IRI="#requirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#confidence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#provided_by"/>
+            <Class IRI="#quality_assurance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#configuration"/>
+        <ObjectUnionOf>
+            <Class IRI="#artifact"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#characterizes"/>
+                <Class IRI="#element"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#configuration"/>
+        <ObjectUnionOf>
+            <Class IRI="#performance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#describes"/>
+                <Class IRI="#maturity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#configuration_item"/>
+        <Class IRI="#item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#configuration_item"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#designated_by"/>
+            <Class IRI="#configuration_management"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#configuration_management"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies_to"/>
+            <Class IRI="#direction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#configuration_management"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#designates"/>
+            <Class IRI="#configuration_item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#configuration_management_process"/>
+        <Class IRI="#technical_management_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#confirmation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#provisions"/>
+            <Class IRI="#objective_evidence"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#constraint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expressed_by"/>
+            <Class IRI="#requirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#constraint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#translated_by"/>
+            <Class IRI="#requirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contract"/>
+        <Class IRI="#agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#corrective_action"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#required_by"/>
+            <Class IRI="#problem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#criteria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#considered_by"/>
+            <Class IRI="#decision_analysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decision_analysis"/>
+        <Class IRI="#analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decision_analysis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#impact"/>
+            <Class IRI="#outcome"/>
+            <Class IRI="#uncertainty"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#considers"/>
+                <Class IRI="#criteria"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decision_analysis"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evaluates"/>
+                <Class IRI="#alternative"/>
+            </ObjectSomeValuesFrom>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#chooses"/>
+                <Class IRI="#alternative"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decision_management_process"/>
+        <Class IRI="#technical_management_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_attribute"/>
+        <Class IRI="#attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_attributes"/>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_characteristic"/>
+        <Class IRI="#characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_characteristic"/>
+        <ObjectUnionOf>
+            <Class IRI="#design_attribute"/>
+            <Class IRI="#feature"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_characteristic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#pertains_to"/>
+            <Class IRI="#description"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_characteristics"/>
+        <ObjectUnionOf>
+            <Class IRI="#service"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#pertains_to"/>
+                <Class IRI="#product"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_constraint"/>
+        <Class IRI="#constraint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_constraint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imposes"/>
+            <Class IRI="#boundary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_definition_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_definition_process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#provides"/>
+            <Class IRI="#feedback"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#development"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#controlled_by"/>
+                <Class IRI="#product_line"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#scheduled_by"/>
+                <Class IRI="#product_line"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#direction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applied_by"/>
+            <Class IRI="#configuration_management"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disposal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_a"/>
+            <Class IRI="#process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disposal_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#element"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#comprises"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#constitutes"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#element"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#characterized_by"/>
+            <Class IRI="#configuration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#element"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#fulfills"/>
+            <Class IRI="#requirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#element"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#interacts_with"/>
+            <Class IRI="#element"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enabling_system"/>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enabling_system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supports"/>
+            <Class IRI="#system_of_interest"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#environment"/>
+        <Class IRI="#context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#environment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#determines"/>
+            <Class IRI="#circumstance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#environment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#determines"/>
+            <Class IRI="#setting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#environment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#interacts_with"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exchange_information"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exchange_information"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#used_by"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#execution"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#consumes"/>
+            <Class IRI="#resource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#execution"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#utilized"/>
+            <Class IRI="#resource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#external_view"/>
+        <Class IRI="#view"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#external_view"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#represented_by"/>
+            <Class IRI="#black_box"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#feedback"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#provided_by"/>
+            <Class IRI="#design_definition_process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#function"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expressed_by"/>
+            <Class IRI="#capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functional_view"/>
+        <Class IRI="#view"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hardware"/>
+        <Class IRI="#configuration_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hierarchy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_a"/>
+            <Class IRI="#form"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human_resource_management_process"/>
+        <Class IRI="#organization_project_enabling_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#considered_by"/>
+            <Class IRI="#decision_analysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#implementation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supported_by"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#implementation_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#incident"/>
+        <ObjectUnionOf>
+            <Class IRI="#condition"/>
+            <Class IRI="#situation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#is_a"/>
+                <Class IRI="#event"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#information"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performs"/>
+            <Class IRI="#operation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#information_item"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#information_management_process"/>
+        <Class IRI="#technical_management_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infrastructure_management_process"/>
+        <Class IRI="#organization_project_enabling_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#input"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#transformed_by"/>
+            <Class IRI="#process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#integration_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interaction"/>
+        <Class IRI="#relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interface_management"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#controls"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#defines"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#manages"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interfacing_system"/>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal_sponsor"/>
+        <Class IRI="#sponsor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal_view"/>
+        <Class IRI="#view"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal_view"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#represented_by"/>
+            <Class IRI="#white_box"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interoperating_system"/>
+        <Class IRI="#interfacing_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interoperating_system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exchanges"/>
+            <Class IRI="#information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#investigation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#required_by"/>
+            <Class IRI="#problem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iteration"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#authority"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iteration"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#relationship"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iteration"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#responsibility"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iteration"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#repeats"/>
+            <Class IRI="#process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#knowledge_management_process"/>
+        <Class IRI="#organization_project_enabling_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#life_cycle"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+            <Class IRI="#entity"/>
+            <Class IRI="#service"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evolves"/>
+                <Class IRI="#product"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#life_cycle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#concerned_by"/>
+            <Class IRI="#life_cycle_model"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#life_cycle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#evolved_by"/>
+            <Class IRI="#architecture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#life_cycle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#model"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#life_cycle_model"/>
+        <Class IRI="#framework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#life_cycle_model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#concerns"/>
+            <Class IRI="#life_cycle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#life_cycle_model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#organizes"/>
+            <Class IRI="#stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#life_cycle_model_management_process"/>
+        <Class IRI="#organization_project_enabling_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#logical_entity"/>
+        <Class IRI="#entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#logical_entity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#associated_by"/>
+            <Class IRI="#traceability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maintenance_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#management_method"/>
+        <Class IRI="#method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#management_process"/>
+        <Class IRI="#process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#marketing"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#controlled_by"/>
+                <Class IRI="#product_line"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#scheduled_by"/>
+                <Class IRI="#product_line"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maturity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#described_by"/>
+            <Class IRI="#configuration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meaning"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exhibited_by"/>
+            <Class IRI="#conceptual_system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#measurable_description"/>
+        <Class IRI="#description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#measurement_process"/>
+        <Class IRI="#technical_management_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#memorandum_of_agreement"/>
+        <Class IRI="#agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#used_by"/>
+            <Class IRI="#life_cycle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#model_based_systems_engineering"/>
+        <Class IRI="#systems_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#model_based_systems_engineering"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification"/>
+            <Class IRI="#activity"/>
+            <Class IRI="#validation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#supports"/>
+                <Class IRI="#requirement"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#need"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#encapsulated_by"/>
+            <Class IRI="#boundary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#need"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expressed_by"/>
+            <Class IRI="#requirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#need"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#translated_by"/>
+            <Class IRI="#requirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#network"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_a"/>
+            <Class IRI="#form"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#objective"/>
+        <ObjectUnionOf>
+            <Class IRI="#capability"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#achieved_by"/>
+                <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#objective_evidence"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#verification"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#provisioned_by"/>
+                <Class IRI="#validation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_a"/>
+            <Class IRI="#process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performed_by"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operation_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operational_analysis"/>
+        <Class IRI="#analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operational_analysis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#environment"/>
+            <Class IRI="#requirement"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#studies"/>
+                <Class IRI="#scenario"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operational_analysis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#suitability"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evaluates"/>
+                <Class IRI="#operational_effectiveness"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operational_analysis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#suitability"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#identifies"/>
+                <Class IRI="#operational_effectiveness"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operational_concept"/>
+        <Class IRI="#statement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operational_concept"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#assumed_by"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operational_effectiveness"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evaluated_by"/>
+                <Class IRI="#operational_analysis"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#identified_by"/>
+                <Class IRI="#operational_analysis"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operational_view"/>
+        <Class IRI="#view"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organization_project_enabling_process"/>
+        <Class IRI="#process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organizational_sponsor"/>
+        <Class IRI="#sponsor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outcome"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#considered_by"/>
+            <Class IRI="#decision_analysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outcome"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contributed_by"/>
+            <Class IRI="#task"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#part"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#interacts_with"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#part"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#interacts_with"/>
+            <Class IRI="#part"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#performance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#described_by"/>
+            <Class IRI="#configuration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#permissible_action"/>
+        <Class IRI="#action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physical_system"/>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physical_system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#composed_of"/>
+            <Class IRI="#energy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physical_system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#composed_of"/>
+            <Class IRI="#matter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physical_system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exhibits"/>
+            <Class IRI="#behavior"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portfolio_management_process"/>
+        <Class IRI="#organization_project_enabling_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#problem"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#investigation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#requires"/>
+                <Class IRI="#corrective_action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#problem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#investigation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#consumes"/>
+            <Class IRI="#resource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#evolved_by"/>
+            <Class IRI="#architecture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#repeated_by"/>
+            <Class IRI="#recursion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#transforms"/>
+            <Class IRI="#input"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#transforms"/>
+            <Class IRI="#output"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#utilized"/>
+            <Class IRI="#resource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process_outcome"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#achieved_by"/>
+            <Class IRI="#process_purpose"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process_purpose"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#achieves"/>
+            <Class IRI="#process_outcome"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process_purpose"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_a"/>
+            <Class IRI="#objective"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process_purpose"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performs"/>
+            <Class IRI="#process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process_view"/>
+        <Class IRI="#view"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#evolved_by"/>
+            <Class IRI="#life_cycle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expressed_by"/>
+            <Class IRI="#capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#output_of"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supplied_by"/>
+            <Class IRI="#supplier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_description"/>
+        <Class IRI="#description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_line_engineering"/>
+        <Class IRI="#engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_line_scoping"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#marketing"/>
+            <Class IRI="#production"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#controls"/>
+                <Class IRI="#development"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_line_scoping"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#marketing"/>
+            <Class IRI="#production"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#schedules"/>
+                <Class IRI="#development"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_line_scoping"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#analyzes"/>
+                <Class IRI="#product"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#defines"/>
+                <Class IRI="#product"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#production"/>
+        <Class IRI="#life_cycle_period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#project_assessment_and_control_process"/>
+        <Class IRI="#technical_management_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#project_planning_process"/>
+        <Class IRI="#technical_management_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_assurance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#fulfills"/>
+            <Class IRI="#quality_requirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_assurance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#provides"/>
+            <Class IRI="#confidence"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_assurance_process"/>
+        <Class IRI="#technical_management_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_characteristic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#characteristic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_management_process"/>
+        <Class IRI="#organization_project_enabling_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_requirement"/>
+        <Class IRI="#requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#fulfilled_by"/>
+            <Class IRI="#quality_assurance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#realization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enabled_by"/>
+            <Class IRI="#systems_engineering"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recommended_action"/>
+        <Class IRI="#action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recursion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#repeats"/>
+            <Class IRI="#application"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relationship"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#conducted_by"/>
+            <Class IRI="#agreement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#required_action"/>
+        <Class IRI="#action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement"/>
+        <Class IRI="#logical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expresses"/>
+            <Class IRI="#condition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expresses"/>
+            <Class IRI="#constraint"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expresses"/>
+            <Class IRI="#need"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#fulfilled_by"/>
+            <Class IRI="#element"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#fulfilled_by"/>
+            <Class IRI="#objective_evidence"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#translates"/>
+            <Class IRI="#condition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#translates"/>
+            <Class IRI="#constraint"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#translates"/>
+            <Class IRI="#need"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#consumed_by"/>
+                <Class IRI="#process"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#utilized_by"/>
+                <Class IRI="#process"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#consumed_by"/>
+            <Class IRI="#execution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#consumed_by"/>
+            <Class IRI="#process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expresses"/>
+            <Class IRI="#condition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expresses"/>
+            <Class IRI="#need"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#treated_by"/>
+            <Class IRI="#condition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#treated_by"/>
+            <Class IRI="#need"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#utilized_by"/>
+            <Class IRI="#process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enabled_by"/>
+            <Class IRI="#systems_engineering"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_a"/>
+            <Class IRI="#life_cycle_period"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#withdraws"/>
+            <Class IRI="#support"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#risk_management_process"/>
+        <Class IRI="#technical_management_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scenario"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#studied_by"/>
+            <Class IRI="#operational_analysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scientific_method"/>
+        <Class IRI="#method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scope"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defined_by"/>
+            <Class IRI="#boundary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#service"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#created_by"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#service"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#evolved_by"/>
+            <Class IRI="#life_cycle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#service"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#output_of"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#service"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supplied_by"/>
+            <Class IRI="#supplier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#service"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#performs"/>
+            <Class IRI="#activity"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#service_description"/>
+        <Class IRI="#description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#setting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#determined_by"/>
+            <Class IRI="#environment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#software"/>
+        <Class IRI="#configuration_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solution"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#model"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#considers"/>
+                <Class IRI="#need"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solution"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#encapsulated_by"/>
+            <Class IRI="#boundary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#specifiction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#specifies"/>
+            <Class IRI="#convention"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stage"/>
+        <ObjectUnionOf>
+            <Class IRI="#realization"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#relates"/>
+                <Class IRI="#description"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#organized_by"/>
+            <Class IRI="#life_cycle_model"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#within"/>
+            <Class IRI="#life_cycle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stakeholder"/>
+        <ObjectUnionOf>
+            <Class IRI="#interest"/>
+            <Class IRI="#right"/>
+            <Class IRI="#share"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#claim"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stakeholder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#interested_in"/>
+            <Class IRI="#concern"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stakeholder_needs_and_requirements_definition_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#statement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#requirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suitability"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evaluated_by"/>
+                <Class IRI="#operational_analysis"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#identified_by"/>
+                <Class IRI="#operational_analysis"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supplier"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enters"/>
+            <Class IRI="#agreement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supplier"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supplier"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#service"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supply_process"/>
+        <Class IRI="#agreement_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#support"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#withdrawn_by"/>
+            <Class IRI="#retirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_analysis_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_characteristic"/>
+        <Class IRI="#characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_element"/>
+        <Class IRI="#logical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_of_interest"/>
+        <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_of_interest"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#boundary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_of_interest"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supported_by"/>
+            <Class IRI="#enabling_system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_of_systems"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#provides"/>
+            <Class IRI="#capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_requirements_definition_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_concept"/>
+        <Class IRI="#concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_engineering"/>
+        <Class IRI="#engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_engineering"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enables"/>
+            <Class IRI="#realization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_engineering"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enables"/>
+            <Class IRI="#retirement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_engineering"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enables"/>
+            <Class IRI="#use"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_engineering"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#management_method"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_engineering"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#scientific_method"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_engineering"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#systems_concept"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_engineering"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#systems_principle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_engineering"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#technological_method"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_principle"/>
+        <Class IRI="#principle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#task"/>
+        <Class IRI="#logical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#task"/>
+        <ObjectUnionOf>
+            <Class IRI="#recommended_action"/>
+            <Class IRI="#required_action"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#is_a"/>
+                <Class IRI="#permissible_action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contributes"/>
+            <Class IRI="#achievement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contributes"/>
+            <Class IRI="#outcome"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#technical_management_process"/>
+        <Class IRI="#process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#technical_process"/>
+        <Class IRI="#process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#technological_method"/>
+        <Class IRI="#method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#traceability"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#associates"/>
+            <Class IRI="#logical_entity"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transition_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uncertainty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#considered_by"/>
+            <Class IRI="#decision_analysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#undesirable_condition"/>
+        <Class IRI="#condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#undesirable_event"/>
+        <Class IRI="#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#undesirable_situation"/>
+        <Class IRI="#situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#use"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enabled_by"/>
+            <Class IRI="#systems_engineering"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#utilization"/>
+        <Class IRI="#life_cycle_period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#validation"/>
+        <Class IRI="#confirmation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#validation_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verification"/>
+        <Class IRI="#confirmation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verification_process"/>
+        <Class IRI="#technical_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#view"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#represents"/>
+            <Class IRI="http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viewpoint"/>
+        <Class IRI="#specifiction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white_box"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#represents"/>
+            <Class IRI="#internal_view"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#conceptual_system"/>
+        <Class IRI="#physical_system"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#hardware"/>
+        <Class IRI="#software"/>
+    </DisjointClasses>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#acquired_by"/>
+        <ObjectProperty IRI="#procured_by"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#acquires"/>
+        <ObjectProperty IRI="#procures"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#designates"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#examines"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#met_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#achieved_by"/>
+        <ObjectProperty IRI="#achieves"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#acknowledged_by"/>
+        <ObjectProperty IRI="#acknowledges"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#acquired_by"/>
+        <ObjectProperty IRI="#acquires"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#acted_on"/>
+        <ObjectProperty IRI="#acts_on"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#addressed_by"/>
+        <ObjectProperty IRI="#addresses"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#analyzed_by"/>
+        <ObjectProperty IRI="#analyzes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#applied_by"/>
+        <ObjectProperty IRI="#applies_to"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#approved_by"/>
+        <ObjectProperty IRI="#approves"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#assessed_by"/>
+        <ObjectProperty IRI="#assesses"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#associated_by"/>
+        <ObjectProperty IRI="#associates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#assumed_by"/>
+        <ObjectProperty IRI="#assumes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#benefits"/>
+        <ObjectProperty IRI="#benefits_from"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#captured_by"/>
+        <ObjectProperty IRI="#captures"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#caused_by"/>
+        <ObjectProperty IRI="#causes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#characterized_by"/>
+        <ObjectProperty IRI="#characterizes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#chooses"/>
+        <ObjectProperty IRI="#chosen_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#claimed_by"/>
+        <ObjectProperty IRI="#claims"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#compared_by"/>
+        <ObjectProperty IRI="#compares"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#composed_of"/>
+        <ObjectProperty IRI="#composes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#comprised_of"/>
+        <ObjectProperty IRI="#comprises"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#concerned_by"/>
+        <ObjectProperty IRI="#concerns"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#conducted_by"/>
+        <ObjectProperty IRI="#conducts"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#confirmed_by"/>
+        <ObjectProperty IRI="#confirms"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#considered_by"/>
+        <ObjectProperty IRI="#considers"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#constituted_by"/>
+        <ObjectProperty IRI="#constitutes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#constructed_by"/>
+        <ObjectProperty IRI="#constucts"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#consumed_by"/>
+        <ObjectProperty IRI="#consumes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contributed_by"/>
+        <ObjectProperty IRI="#contributes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#controlled_by"/>
+        <ObjectProperty IRI="#controls"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#conveyed_by"/>
+        <ObjectProperty IRI="#conveys"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#created_by"/>
+        <ObjectProperty IRI="#creates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#defined_by"/>
+        <ObjectProperty IRI="#defines"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#delivered_by"/>
+        <ObjectProperty IRI="#delivers"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#described_by"/>
+        <ObjectProperty IRI="#describes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#designated_by"/>
+        <ObjectProperty IRI="#designates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#determined_by"/>
+        <ObjectProperty IRI="#determines"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#elevated_by"/>
+        <ObjectProperty IRI="#elevates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#employ"/>
+        <ObjectProperty IRI="#employed_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#enabled_by"/>
+        <ObjectProperty IRI="#enables"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#encapsulated_by"/>
+        <ObjectProperty IRI="#encapsulates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#entered_by"/>
+        <ObjectProperty IRI="#enters"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#evaluated_by"/>
+        <ObjectProperty IRI="#evaluates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#evolved_by"/>
+        <ObjectProperty IRI="#evolves"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#examined_by"/>
+        <ObjectProperty IRI="#examines"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#exchanged_by"/>
+        <ObjectProperty IRI="#exchanges"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#exhibited_by"/>
+        <ObjectProperty IRI="#exhibits"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#expressed_by"/>
+        <ObjectProperty IRI="#expresses"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#fulfilled_by"/>
+        <ObjectProperty IRI="#fulfills"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#identified_by"/>
+        <ObjectProperty IRI="#identifies"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#implemented_by"/>
+        <ObjectProperty IRI="#implements"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#imposed_by"/>
+        <ObjectProperty IRI="#imposes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#included_in"/>
+        <ObjectProperty IRI="#includes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#input_to"/>
+        <ObjectProperty IRI="#inputs"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#installed_by"/>
+        <ObjectProperty IRI="#installs"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#interested_in"/>
+        <ObjectProperty IRI="#of_interest"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#leads_to"/>
+        <ObjectProperty IRI="#led_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#managed_by"/>
+        <ObjectProperty IRI="#manages"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#meets"/>
+        <ObjectProperty IRI="#met_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#obtained_by"/>
+        <ObjectProperty IRI="#obtains"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#operated_by"/>
+        <ObjectProperty IRI="#operates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#organized_by"/>
+        <ObjectProperty IRI="#organizes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#output_of"/>
+        <ObjectProperty IRI="#outputs"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#performed_by"/>
+        <ObjectProperty IRI="#performs"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#permits"/>
+        <ObjectProperty IRI="#permitted_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#placed_by"/>
+        <ObjectProperty IRI="#places"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#procured_by"/>
+        <ObjectProperty IRI="#procures"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#produced_by"/>
+        <ObjectProperty IRI="#produces"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#protected_by"/>
+        <ObjectProperty IRI="#protects"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#provided_by"/>
+        <ObjectProperty IRI="#provides"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#provisioned_by"/>
+        <ObjectProperty IRI="#provisions"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#realized_by"/>
+        <ObjectProperty IRI="#realizes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#received_by"/>
+        <ObjectProperty IRI="#receives"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#recommended_by"/>
+        <ObjectProperty IRI="#recommends"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#related_by"/>
+        <ObjectProperty IRI="#relates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#repeated_by"/>
+        <ObjectProperty IRI="#repeats"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#represented_by"/>
+        <ObjectProperty IRI="#represents"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#required_by"/>
+        <ObjectProperty IRI="#requires"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#result_of"/>
+        <ObjectProperty IRI="#results_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#satisfied_by"/>
+        <ObjectProperty IRI="#satisfy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#scheduled_by"/>
+        <ObjectProperty IRI="#schedules"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#selected"/>
+        <ObjectProperty IRI="#selected_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#shared_by"/>
+        <ObjectProperty IRI="#shares"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#specified_by"/>
+        <ObjectProperty IRI="#specifies"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#stored_by"/>
+        <ObjectProperty IRI="#stores"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#studied_by"/>
+        <ObjectProperty IRI="#studies"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#supplied_by"/>
+        <ObjectProperty IRI="#supplies"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#supported_by"/>
+        <ObjectProperty IRI="#supports"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#transformed_by"/>
+        <ObjectProperty IRI="#transforms"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#translated_by"/>
+        <ObjectProperty IRI="#translates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#treated_by"/>
+        <ObjectProperty IRI="#treats"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#upgraded_by"/>
+        <ObjectProperty IRI="#upgrades"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#used_by"/>
+        <ObjectProperty IRI="#uses"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#utilized"/>
+        <ObjectProperty IRI="#utilized_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#withdrawn_by"/>
+        <ObjectProperty IRI="#withdraws"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#fulfills"/>
+    </InverseFunctionalObjectProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#acquisition_process</IRI>
+        <Literal>process of obtaining a system, product, or service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#audit</IRI>
+        <Literal>independent examination of a work product or set of work products to assess compliance with specifications, standards, contractual agreements, or other criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#baseline</IRI>
+        <Literal>formally approved version of a configuration item, regardless of media, formally designated and fixed at a specific time during the configuration item&apos;s life cycle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#customer</IRI>
+        <Literal>Organization or person that receives a product or service.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#design</IRI>
+        <Literal>specification of system elements and their relationships, that is sufficiently complete to support a compliant implementation of the architecture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#interface</IRI>
+        <Literal>point at which two or more logical, physical, or both, system elements or software system elements meet and act on or communicate with each other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#operator</IRI>
+        <Literal>Individual or organization that performs the operations of a system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#organization</IRI>
+        <Literal>Person or group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#project</IRI>
+        <Literal>Endeavour with defined start and finish criteria undertaken to create a product or service in accordance with specified resources and requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#risk</IRI>
+        <Literal>Effect of uncertainty on objectives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#system</IRI>
+        <Literal>arrangement of parts or elements that together exhibit a stated behaviour or meaning that the individual constituents do not</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/sarahrudder/ontologies/2024/5/HSI-ontology#user</IRI>
+        <Literal>individual or group that interacts with a system or benefits from a system during its utilization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#activity</IRI>
+        <Literal>set of cohesive tasks of a process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#agreement</IRI>
+        <Literal>Mutual acknowledgement of terms and conditions under which a working relationship is conducted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#architecture</IRI>
+        <Literal>Fundamental concepts or properties of a system in its environment and governing principles for the realization and evolution of this system and its related life cycle processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#artifact</IRI>
+        <Literal>work product that is produced and used during a project to capture and convey information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#black_box</IRI>
+        <Literal>Black box represents an external view of the system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#black_box</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#boundary</IRI>
+        <Literal>The limit that defines the scope of the system, separating it from its environment and other systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#boundary</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#capability</IRI>
+        <Literal>An expression of a system, product, function, or process ability to achieve a specific objective under stated conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#capability</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#commercial_off_the_shelf</IRI>
+        <Literal>Commercial items requiring no unique acquirer modifications or maintenance over the life cycle of the product to meet the needs of the procuring agency.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#commercial_off_the_shelf</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#concept_of_operations</IRI>
+        <Literal>verbal and graphic statement, in broad outline, of an organization’s assumptions or intent in regard to an operation or series of operations of new, modified, or existing organization systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#concern</IRI>
+        <Literal>matter of interest or importance to a stakeholder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#configuration</IRI>
+        <Literal>A characteristic of a system element, or project artifact, describing their maturity or performance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#configuration</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#configuration_item</IRI>
+        <Literal>Item or aggregation of hardware, software, or both, that is designated for configuration management and treated as a single entity in the configuration management process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#configuration_management</IRI>
+        <Literal>A discipline applying technical and administrative direction over the life cycle of projects, products, or services to provide visibility and control of their performance, functional, and physical attributes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#configuration_management</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#decision_analysis</IRI>
+        <Literal>The process of evaluating and choosing among alternatives in a systematic manner, considering various criteria, uncertainties, outcomes, and impacts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#decision_analysis</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#design_characteristics</IRI>
+        <Literal>Design attributes or distinguishing features that pertain to a measurable description of a product or service.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#design_constraint</IRI>
+        <Literal>The boundary conditions, externally or internally imposed, for the SOI within which the organization must remain when executiving the processes during the concept and development stages.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#design_definition_process</IRI>
+        <Literal>Provides feedback to the system architecture definition process to consolidate or confirm the allocation, partitioning and alignment of architectural entities (e.g. strategic goals, capabilities and effects, operational activities, resource functions) to system elements that comprise the system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#element</IRI>
+        <Literal>Member of a set of elements that constitutes a system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#enabling_system</IRI>
+        <Literal>System that supports a system-of-interest during its life cycle stages but does not necessarily contribute directly to its function during operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#environment</IRI>
+        <Literal>Context determining the setting and circumstances of all influences upon a system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#incident</IRI>
+        <Literal>Anomalous or unexpected event, set of events, condition, or situation at any time during the life cycle of a project, product, service, or system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#information_item</IRI>
+        <Literal>Separately identifiable body of information that is produced, stored, and delivered for human use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#interface_management</IRI>
+        <Literal>The practice of defining, controlling, and managing the interfaces between system components or between the system and its environment to ensure compatibility and integration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#interface_management</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#interoperating_system</IRI>
+        <Literal>Systems that interact to perform a function are called interoperating systems, which are an important
+aspect in the context of systems of systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#iteration</IRI>
+        <Literal>Repeating the application of the same process or set of processes on the same level of the system structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#life_cycle</IRI>
+        <Literal>Evolution of a system, product, service, project or other human-made entity from conception through retirement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#life_cycle_model</IRI>
+        <Literal>Framework of processes and activities concerned with the life cycle which can be organized into stages, acting as a common reference for communication and understanding.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#model_based_systems_engineering</IRI>
+        <Literal>The formalized application of modeling to support system requirements, design, analysis, verification, and validation activities beginning in the conceptual design phase and continuing throughout development and later life cycle phases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#model_based_systems_engineering</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#operational_analysis</IRI>
+        <Literal>The study of operational scenarios, requirements, and environments to identify and evaluate the operational effectiveness and suitability of conceptualized or existing systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#operational_analysis</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#operational_concept</IRI>
+        <Literal>Verbal and graphic statement of an organization&apos;s assumptions or intent in regard to an operation or series of operations of a specific system or a related set of specific new, existing or modified systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#problem</IRI>
+        <Literal>Difficulty, uncertainty, or otherwise realised and undesirable event, set of events, condition, or situation that requires investigation and corrective action.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#process</IRI>
+        <Literal>Set of interrelated or interacting activities that transform inputs into outputs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#process_outcome</IRI>
+        <Literal>Observable result of the successful achievement of the process purpose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#process_purpose</IRI>
+        <Literal>High level objective of performing the process and the likely outcomes of effective implementation of the process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#product</IRI>
+        <Literal>Output of an organization that can be produced without any transaction taking place between the organization and the customer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#product_line_engineering</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#product_line_scoping</IRI>
+        <Literal>Defines the products that will constitute the product line and the major (extremely visible) common and variable features among the products, analyzes the products from an economic point of view, and controls and schedules the development, production, and marketing of the product line and its products. Product management is primarily responsible for this process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#product_line_scoping</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#quality_assurance</IRI>
+        <Literal>Part of quality management focused on providing confidence that quality requirements will be fulfilled.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#quality_characteristic</IRI>
+        <Literal>Inherent characteristic of a product, service, process, or system related to a requirement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#recursion</IRI>
+        <Literal>Repeating the application of the same process or set of processes to successive levels of system elements in the system structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#requirement</IRI>
+        <Literal>Statement which translates or expresses a need and its associated constraints and conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#resource</IRI>
+        <Literal>Asset that is utilised or consumed during the execution of a process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#retirement</IRI>
+        <Literal>Withdrawal of active support by the operation and maintenance organization, partial or total replacement by a new system, or installation of an upgraded system, or final decommissioning and disposal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#safety</IRI>
+        <Literal>Expectation that a system does not, under defined conditions, lead to a state in which human life, health, property, or the environment is endangered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#security</IRI>
+        <Literal>protection against intentional subversion or forced failure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#service</IRI>
+        <Literal>output of an organization with at least one activity necessarily performed between the organization and the customer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#stage</IRI>
+        <Literal>period within the life cycle of an entity that relates to the state of its description or realization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#stakeholder</IRI>
+        <Literal>individual or organization having a right, share, claim, or interest in a system or in its possession of characteristics that meet their needs and expectations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#supplier</IRI>
+        <Literal>organization or an individual that enters into an agreement with the acquirer for the supply of a product or service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#system_of_interest</IRI>
+        <Literal>system whose lifecycle is under consideration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#system_of_systems</IRI>
+        <Literal>set of systems or system elements that interact to provide a unique capabiility that none of the constitution systems can accomplish on its own</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#systems_engineering</IRI>
+        <Literal>transdisciplinary and integrative approach to enable the successful realization, use, and retirement of engineered systems using systems principles and concepts and scientific, technological and management methods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#technical_process</IRI>
+        <Literal>The technical processes are concerned with technical actions throughout the life cycle. Technical processes transform the needs of stakeholders into products or services. By applying that product or operating that service, technical processes provide sustainable performance, when and where needed, to meet the stakeholder requirements and achieve customer satisfaction. The technical processes are applied to create and use a system, whether it is in the form of a model or is a finished product.
+
+The technical processes are used to define the requirements for a system, to transform the requirements into an effective product, to permit consistent reproduction of the product where necessary, to use the product, to provide the required services, to sustain the provision of those services and to dispose of the product when it is retired from service.
+
+The technical processes define the activities that enable organization and project functions to optimise the benefits and reduce the risks that arise from technical decisions and actions. These activities enable products and services to possess the timeliness and availability, the cost effectiveness, and the functionality, reliability, maintainability, producibility, usability and other quality characteristics required for acquiring and suppying organizations. They also enable products and services to conform to the expectations, ethical perspectives, or legislated requirements of society.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#traceability</IRI>
+        <Literal>discernible association among two or more logical entities, such as requirements, system elements, verifications, or tasks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#validation</IRI>
+        <Literal>confirmation, through the provision of objective evidence, that the requirements for a specific intended use or application that have been fulfilled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#viewpoint</IRI>
+        <Literal>Specification of the conventions for constructing and using a view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#white_box</IRI>
+        <Literal>White box represents an internal view of the system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#white_box</IRI>
+        <Literal>INCOSE SEBoK App C</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
